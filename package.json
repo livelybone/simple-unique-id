@@ -1,5 +1,5 @@
 {
-  "name": "simple-unique-id",
+  "name": "@livelybone/simple-unique-id",
   "version": "1.0.0",
   "description": "A simple unique-id generator",
   "main": "./lib/umd/index.js",

@@ -1,6 +1,6 @@
-# simple-unique-id
-[![NPM Version](http://img.shields.io/npm/v/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/simple-unique-id)
-[![Download Month](http://img.shields.io/npm/dm/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/simple-unique-id)
+# @livelybone/simple-unique-id
+[![NPM Version](http://img.shields.io/npm/v/@livelybone/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/@livelybone/simple-unique-id)
+[![Download Month](http://img.shields.io/npm/dm/@livelybone/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/@livelybone/simple-unique-id)
 ![gzip with dependencies: kb](https://img.shields.io/badge/gzip--with--dependencies-kb-brightgreen.svg "gzip with dependencies: kb")
 ![typescript](https://img.shields.io/badge/typescript-supported-blue.svg "typescript")
 ![pkg.module](https://img.shields.io/badge/pkg.module-supported-blue.svg "pkg.module")
@@ -28,7 +28,7 @@ https://github.com/livelybone/simple-unique-id#readme
 
 ## Installation
 ```bash
-npm i -S simple-unique-id
+npm i -S @livelybone/simple-unique-id
 ```
 
 ## Global name - The variable the module exported in `umd` bundle
@@ -39,11 +39,11 @@ npm i -S simple-unique-id
 
 ## Usage
 ```js
-import simpleUniqueId from 'simple-unique-id'
+import simpleUniqueId from '@livelybone/simple-unique-id'
 ```
 
-在 HTML 文件中直接引用，你可以在 [CDN: unpkg](https://unpkg.com/simple-unique-id/lib/umd/) 看到你能用到的所有 js 脚本
+在 HTML 文件中直接引用，你可以在 [CDN: unpkg](https://unpkg.com/@livelybone/simple-unique-id/lib/umd/) 看到你能用到的所有 js 脚本
 ```html
 <-- 然后使用你需要的 -->
-<script src="https://unpkg.com/simple-unique-id/lib/umd/<--module-->.js"></script>
+<script src="https://unpkg.com/@livelybone/simple-unique-id/lib/umd/<--module-->.js"></script>
 ```

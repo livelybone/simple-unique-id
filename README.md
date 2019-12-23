@@ -1,6 +1,6 @@
-# simple-unique-id
-[![NPM Version](http://img.shields.io/npm/v/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/simple-unique-id)
-[![Download Month](http://img.shields.io/npm/dm/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/simple-unique-id)
+# @livelybone/simple-unique-id
+[![NPM Version](http://img.shields.io/npm/v/@livelybone/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/@livelybone/simple-unique-id)
+[![Download Month](http://img.shields.io/npm/dm/@livelybone/simple-unique-id.svg?style=flat-square)](https://www.npmjs.com/package/@livelybone/simple-unique-id)
 ![gzip with dependencies: kb](https://img.shields.io/badge/gzip--with--dependencies-kb-brightgreen.svg "gzip with dependencies: kb")
 ![typescript](https://img.shields.io/badge/typescript-supported-blue.svg "typescript")
 ![pkg.module](https://img.shields.io/badge/pkg.module-supported-blue.svg "pkg.module")
@@ -28,7 +28,7 @@ Your can see the usage by run the example of the module, here is the step:
 
 ## Installation
 ```bash
-npm i -S simple-unique-id
+npm i -S @livelybone/simple-unique-id
 ```
 
 ## Global name - The variable the module exported in `umd` bundle
@@ -39,11 +39,11 @@ See what method or params you can use in [index.d.ts](./index.d.ts)
 
 ## Usage
 ```js
-import simpleUniqueId from 'simple-unique-id'
+import simpleUniqueId from '@livelybone/simple-unique-id'
 ```
 
-Use in html, see what your can use in [CDN: unpkg](https://unpkg.com/simple-unique-id/lib/umd/)
+Use in html, see what your can use in [CDN: unpkg](https://unpkg.com/@livelybone/simple-unique-id/lib/umd/)
 ```html
 <-- use what you want -->
-<script src="https://unpkg.com/simple-unique-id/lib/umd/<--module-->.js"></script>
+<script src="https://unpkg.com/@livelybone/simple-unique-id/lib/umd/<--module-->.js"></script>
 ```
