@@ -32,14 +32,14 @@ npm i -S simple-unique-id
 ```
 
 ## Global name - The variable the module exported in `umd` bundle
-`SimpleUniqueId`
+`simpleUniqueId`
 
 ## Interface
 去 [index.d.ts](./index.d.ts) 查看可用方法和参数
 
 ## Usage
 ```js
-import * as SimpleUniqueId from 'simple-unique-id'
+import simpleUniqueId from 'simple-unique-id'
 ```
 
 在 HTML 文件中直接引用，你可以在 [CDN: unpkg](https://unpkg.com/simple-unique-id/lib/umd/) 看到你能用到的所有 js 脚本

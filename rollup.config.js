@@ -33,7 +33,7 @@ const conf = entry => ({
     file: `./lib/${format}/${entry.name}.js`,
     format,
     name:
-      entry.name === 'index' ? 'SimpleUniqueId' : `${entry.name}SimpleUniqueId`,
+      entry.name === 'index' ? 'simpleUniqueId' : `${entry.name}simpleUniqueId`,
   })),
   external: entry.external ? Object.keys(packageConf.dependencies || {}) : [],
   plugins: [

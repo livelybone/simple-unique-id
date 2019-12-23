@@ -32,14 +32,14 @@ npm i -S simple-unique-id
 ```
 
 ## Global name - The variable the module exported in `umd` bundle
-`SimpleUniqueId`
+`simpleUniqueId`
 
 ## Interface
 See what method or params you can use in [index.d.ts](./index.d.ts)
 
 ## Usage
 ```js
-import * as SimpleUniqueId from 'simple-unique-id'
+import simpleUniqueId from 'simple-unique-id'
 ```
 
 Use in html, see what your can use in [CDN: unpkg](https://unpkg.com/simple-unique-id/lib/umd/)
